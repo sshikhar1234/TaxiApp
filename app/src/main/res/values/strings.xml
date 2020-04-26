@@ -6,12 +6,24 @@
     <string name="nav_header_subtitle">carson@mobility.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 
     <string name="menu_ride_history">RIDE HISTORY</string>
     <string name="menu_payment">PAYMENT</string>
     <string name="menu_promocode">PROMOCODE</string>
-
+    <string name="nav_item_one">RIDE HISTORY</string>
+    <string name="nav_item_two">PAYMENT</string>
+    <string name="nav_item_three">PROMOCODE</string>
+    <string name="nav_item_four">SUPPORT</string>
     <!--    <string name="menu_promocode">Sign Out</string>-->
+    <string name="nav_signout"><u>Sign out</u></string>
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_one</item>
+        <item>@string/nav_item_two</item>
+        <item>@string/nav_item_three</item>
+        <item>@string/nav_item_four</item>
+    </string-array>
 
     <string name="home_second">Home Second</string>
 </resources>

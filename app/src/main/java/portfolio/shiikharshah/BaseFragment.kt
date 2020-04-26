@@ -6,13 +6,14 @@ import portfolio.shiikharshah.utils.Helper
 import portfolio.shiikharshah.utils.UiHelper
 
 
-class BaseFragment : Fragment(){
+ open class BaseFragment : Fragment(){
+
     var mActivity: BaseAppCompatActivity? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mActivity = getActivity() as  BaseAppCompatActivity?
-
     }
+
     fun isNetworkAvailable(): Boolean {
         return Helper.isNetworkAvailable(mActivity)
     }
