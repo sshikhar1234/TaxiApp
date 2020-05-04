@@ -1,16 +1,13 @@
 package portfolio.shiikharshah.ui.adapters
 
-import android.app.Activity
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.nav_drawer_row.view.*
 import portfolio.shiikharshah.R
 import portfolio.shiikharshah.ui.datamodels.DrawerItem
+
 class DrawerAdapter(private val data: List<DrawerItem>) : RecyclerView.Adapter<DrawerAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
